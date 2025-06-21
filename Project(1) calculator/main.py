@@ -1,7 +1,9 @@
 # In this file we addrees the inputs of a user and import all the operations for execution in this project.
 from calculator_functions import add_num, sub_num, mul_num,  div_num,  mod_num,sqrt_num, cube_root_num, factorial_num, square_num, pow_num, cube_num,table_of_num
 def main():
-    print("Welcome to the calculator!")
+    print("*" * 130)
+    print("Welcome to your calculator!")
+    print("=" * 130)
     print("1. Add")
     print("2. Subtract")
     print("3. Multiply")
@@ -70,6 +72,7 @@ def main():
         print("Invalid choice. Please try again.")
         return
     print(f"The result is/are: \n{result}")
+    
     while True:
         try:
             content = input("Do you want to perform another operation? (yes/no): ").strip().lower()
@@ -77,7 +80,9 @@ def main():
                 main()
                 break
             elif content == 'no':
-                print("Thank you for using the calculator. Goodbye!")
+                print("<" * 100)
+                print("Thanks for using the calculator! Goodbye!")
+                print(">" * 100)
                 break
             else:
                 print("Invalid input. Please enter 'yes' or 'no'.")
