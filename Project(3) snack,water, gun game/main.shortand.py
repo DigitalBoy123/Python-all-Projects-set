@@ -22,18 +22,18 @@ else:
         print("you win!")
 
         
-#     if(computer==1 and you==-1):2
-#         print("you lose!")
-#     elif(computer==0 and you-1):1
-#         print("you win!")
-#     elif(computer==-1 and you==0):-1
-#         print("you lose!")
-#     elif(computer==0 and you==1):-1
-#         print("you lose!")
-#     elif(computer==-1 and you==1):-2
-#         print("you win!")
-#     elif(computer==1 and you==0):1
-#         print("you win!")
-#     else:
-#         print("Somethig went wrong!")
+    if(computer==1 and you==-1):2
+        print("you lose!")
+    elif(computer==0 and you-1):1
+        print("you win!")
+    elif(computer==-1 and you==0):-1
+        print("you lose!")
+    elif(computer==0 and you==1):-1
+        print("you lose!")
+    elif(computer==-1 and you==1):-2
+        print("you win!")
+    elif(computer==1 and you==0):1
+        print("you win!")
+    else:
+        print("Somethig went wrong!")
  
