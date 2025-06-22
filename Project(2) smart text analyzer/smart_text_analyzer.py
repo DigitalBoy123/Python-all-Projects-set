@@ -58,5 +58,3 @@ print("=" * 50)
 print("Thanks for using the Smart text Analyzer!")
 print("=" * 50)
 
-
-
