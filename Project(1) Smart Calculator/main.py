@@ -144,7 +144,7 @@ def main():
                 radius = float(input("Enter your radius: "))
                 result = area_circle(radius)
             except ValueError:
-                print("Invalid choice! Please enter a numeric value!")
+                print("Invalid choice!Please enter a numeric value!")
                 continue
 
         elif choice == 23:
@@ -152,7 +152,7 @@ def main():
                 num = int(input("Enter your number: "))
                 result = check_prime(num)
             except ValueError:
-                print("Invalid input. Please enter a numeric value.")
+                print("Invalid input.Please enter a numeric value!.")
                 continue
 
         elif choice == 24:
